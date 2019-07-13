@@ -1463,7 +1463,7 @@
   }
   .first-image-text {
     width: 100%;
-    padding-top: 5px;
+    padding-top: 0px;
     padding-bottom: 10px;
     padding-left: 20px;
     -webkit-box-align: stretch;
@@ -1474,7 +1474,7 @@
   .heading-2 {
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px;
     font-size: 38px;
     line-height: 42px;
