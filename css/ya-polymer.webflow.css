@@ -87,6 +87,8 @@
 }
 
 .button {
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 20px;
   background-color: #222;
   font-family: neue-haas-grotesk-display, sans-serif;
@@ -896,7 +898,7 @@
   height: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding: 10px 20px;
+  padding: 10px 15px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -906,7 +908,7 @@
   -ms-flex-align: center;
   align-items: center;
   border-radius: 20px;
-  background-color: #333;
+  background-color: #222;
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 500;
   text-align: center;
@@ -953,6 +955,8 @@
 
 .paragraph-10 {
   margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
 }
 
 .hyperlink {
@@ -979,6 +983,15 @@
 .text-block-3 {
   font-family: neue-haas-grotesk-display, sans-serif;
   font-size: 10px;
+  font-weight: 500;
+}
+
+.button-4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  background-color: #222;
+  font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 500;
 }
 
@@ -1124,6 +1137,7 @@
     -ms-flex-item-align: start;
     align-self: flex-start;
     background-color: #222;
+    text-align: left;
   }
   .cta {
     padding-right: 20px;
@@ -1287,7 +1301,7 @@
     width: auto;
     height: auto;
     margin-left: 10px;
-    padding-left: 20px;
+    padding-left: 15px;
     background-color: #222;
   }
   .contact-content {
@@ -1337,10 +1351,12 @@
     text-align: left;
   }
   .button {
+    margin-left: 0px;
     -webkit-align-self: flex-start;
     -ms-flex-item-align: start;
     align-self: flex-start;
     font-weight: 500;
+    text-align: center;
   }
   .cta {
     display: -webkit-box;
@@ -1447,7 +1463,7 @@
   }
   .first-image-text {
     width: 100%;
-    padding-top: 15px;
+    padding-top: 5px;
     padding-bottom: 10px;
     padding-left: 20px;
     -webkit-box-align: stretch;
@@ -1670,7 +1686,7 @@
     width: auto;
     height: auto;
     margin-left: 10px;
-    padding-left: 20px;
+    padding-left: 15px;
     background-color: #222;
   }
   .bold-text {
@@ -1682,7 +1698,7 @@
     right: 0%;
     bottom: 0%;
     display: block;
-    height: 150px;
+    height: auto;
     margin-right: auto;
     margin-left: auto;
     clear: none;
@@ -1723,6 +1739,28 @@
     padding-bottom: 20px;
     padding-left: 20px;
     text-align: left;
+  }
+  .button-4 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 20px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    border-radius: 20px;
+    background-color: #222;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
   }
 }
 
