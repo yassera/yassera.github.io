@@ -914,7 +914,7 @@
   .headline-text {
     width: 530px;
     margin-bottom: 20px;
-    margin-left: 10px;
+    margin-left: 0px;
     padding-left: 0px;
     text-align: left;
   }
@@ -922,9 +922,13 @@
     position: static;
     width: 530px;
     margin-bottom: 30px;
-    margin-left: 10px;
+    margin-left: 0px;
     padding: 0px 70px 0px 0px;
     text-align: left;
+  }
+  .cta {
+    padding-right: 10px;
+    padding-left: 10px;
   }
   .first-block {
     height: 400px;
@@ -1064,11 +1068,14 @@
   }
   .paragraph {
     width: 280px;
-    margin: 0px auto 20px 0px;
+    margin: 0px 0px 20px;
     padding: 0px 10px 0px 0px;
     font-size: 14px;
     line-height: 22px;
     text-align: left;
+  }
+  .cta {
+    margin-left: 0px;
   }
   .first-block {
     display: -webkit-box;
@@ -1195,6 +1202,9 @@
   .use-case-title {
     height: auto;
     margin-top: 40px;
+    margin-left: 0px;
+    padding-right: 10px;
+    padding-left: 20px;
   }
   .use-case-examples {
     display: -webkit-box;
@@ -1222,15 +1232,17 @@
     grid-template-columns: 0.75fr 1fr;
   }
   .heading-6 {
-    height: 100px;
+    height: auto;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 20px;
+    margin-left: 0px;
+    padding-left: 0px;
     text-align: left;
   }
   .paragraph-7 {
     margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 0px;
+    padding-left: 0px;
     text-align: left;
   }
   .heading-7 {
