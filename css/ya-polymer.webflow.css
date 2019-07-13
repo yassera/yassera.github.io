@@ -314,15 +314,20 @@
 }
 
 .heading-2 {
-  margin-top: 42px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 700;
 }
 
 .paragraph-2 {
   width: 75%;
+  margin-bottom: 0px;
+  padding-right: 20px;
+  padding-bottom: 10px;
   font-family: neue-haas-grotesk-display, sans-serif;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .second-image-text {
@@ -345,19 +350,23 @@
 }
 
 .heading-3 {
-  margin-top: 42px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
   font-family: neue-haas-grotesk-display, sans-serif;
   text-align: right;
 }
 
 .paragraph-3 {
   width: 75%;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
   float: right;
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
   align-self: flex-end;
   font-family: neue-haas-grotesk-display, sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   text-align: right;
 }
 
@@ -402,14 +411,19 @@
 }
 
 .heading-4 {
-  margin-top: 42px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
   font-family: neue-haas-grotesk-display, sans-serif;
 }
 
 .paragraph-4 {
   width: 75%;
+  margin-bottom: 0px;
+  padding-right: 10px;
+  padding-bottom: 10px;
   font-family: neue-haas-grotesk-display, sans-serif;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .image-2 {
@@ -663,6 +677,8 @@
   display: -ms-flexbox;
   display: flex;
   margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -687,6 +703,8 @@
 }
 
 .paragraph-7 {
+  margin-bottom: 0px;
+  padding-bottom: 10px;
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 500;
 }
@@ -832,6 +850,10 @@
 }
 
 .heading-8 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   font-family: neue-haas-grotesk-display, sans-serif;
 }
 
@@ -873,24 +895,37 @@
   }
   .headline-text {
     width: 730px;
+    margin-bottom: 0px;
     margin-left: 0px;
-    padding-right: 5px;
-    padding-left: 5px;
+    padding: 10px 5px 20px;
   }
   .paragraph {
     width: 550px;
+    margin-top: 0px;
     margin-bottom: 40px;
-    padding: 0px 5px;
+    padding: 10px 5px 0px;
   }
   .first-image-text {
     padding-right: 10px;
+  }
+  .heading-2 {
+    margin-top: 0px;
+    padding-top: 10px;
   }
   .second-image-text {
     margin-left: 0px;
     padding-left: 10px;
   }
+  .heading-3 {
+    margin-top: 0px;
+    padding-top: 10px;
+  }
   .third-image-text {
     padding-right: 40px;
+  }
+  .heading-4 {
+    margin-top: 0px;
+    padding-top: 10px;
   }
   .use-cases {
     height: auto;
@@ -902,19 +937,38 @@
     -ms-flex-direction: column;
     flex-direction: column;
   }
+  .paragraph-7 {
+    font-weight: 400;
+  }
+  .heading-7 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
   .case-description {
     margin-left: 5px;
     padding-left: 20px;
   }
+  .paragraph-9 {
+    margin-top: 0px;
+    padding-top: 10px;
+  }
   .button-3 {
     height: 40px;
+  }
+  .heading-8 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
   }
 }
 
 @media (max-width: 767px) {
   .headline-text {
     width: 530px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     margin-left: 0px;
     padding-left: 0px;
     text-align: left;
@@ -922,9 +976,9 @@
   .paragraph {
     position: static;
     width: 530px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-left: 0px;
-    padding: 0px 60px 0px 0px;
+    padding: 0px 60px 20px 0px;
     font-size: 15px;
     text-align: left;
   }
@@ -951,23 +1005,26 @@
     padding-left: 10px;
   }
   .paragraph-2 {
-    width: 95%;
+    width: auto;
   }
   .second-image-text {
     padding-right: 20px;
   }
   .paragraph-3 {
-    width: 100%;
+    width: auto;
   }
   .third-image-text {
     padding-left: 20px;
   }
   .paragraph-4 {
-    width: 100%;
+    width: auto;
   }
   .use-cases {
     height: auto;
     margin-top: 40px;
+  }
+  .use-case-title {
+    height: auto;
   }
   .use-case-examples {
     display: -webkit-box;
@@ -975,12 +1032,19 @@
     display: -ms-flexbox;
     display: flex;
     height: auto;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     padding-left: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -1011,6 +1075,10 @@
     margin-left: 20px;
   }
   .heading-7 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     padding-left: 10px;
   }
   .case-description {
@@ -1020,8 +1088,7 @@
     margin-top: 20px;
     margin-right: 0px;
     margin-left: 0px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 10px 10px 0px;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
@@ -1038,8 +1105,8 @@
     flex: 0 auto;
   }
   .paragraph-9 {
-    padding-right: 10px;
-    padding-left: 10px;
+    margin-top: 0px;
+    padding: 10px;
   }
   .button-3 {
     width: auto;
@@ -1130,7 +1197,7 @@
     display: -ms-flexbox;
     display: flex;
     height: 500px;
-    margin-top: 60px;
+    margin-top: 100px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -1194,7 +1261,7 @@
     line-height: 42px;
   }
   .paragraph-2 {
-    width: 100%;
+    width: auto;
     font-weight: 400;
   }
   .second-image-text {
@@ -1215,7 +1282,7 @@
     text-align: left;
   }
   .paragraph-3 {
-    width: 100%;
+    width: auto;
     margin-bottom: 0px;
     padding-right: 0px;
     padding-bottom: 10px;
@@ -1239,7 +1306,7 @@
     padding-bottom: 10px;
   }
   .paragraph-4 {
-    width: 100%;
+    width: auto;
     margin-bottom: 0px;
     padding-right: 0px;
     padding-bottom: 10px;
@@ -1306,12 +1373,17 @@
     grid-template-columns: 0.75fr 1fr;
   }
   .heading-6 {
+    display: block;
     height: auto;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     padding-bottom: 10px;
     padding-left: 0px;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
     text-align: left;
   }
   .paragraph-7 {
@@ -1324,6 +1396,10 @@
     text-align: left;
   }
   .heading-7 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     padding-left: 10px;
   }
   .case-description {
@@ -1334,6 +1410,8 @@
   }
   .paragraph-9 {
     width: 100%;
+    margin-top: 0px;
+    padding-top: 10px;
     padding-right: 0px;
     padding-left: 10px;
   }
@@ -1343,6 +1421,9 @@
     margin-left: 10px;
     padding-left: 20px;
     background-color: #222;
+  }
+  .bold-text {
+    padding-left: 0px;
   }
   .contact-content {
     position: static;
@@ -1379,11 +1460,16 @@
     order: 0;
   }
   .heading-8 {
+    margin-top: 0px;
+    margin-bottom: 0px;
     margin-left: 20px;
+    padding-bottom: 10px;
     text-align: left;
   }
   .paragraph-10 {
+    margin-bottom: 0px;
     padding-right: 20px;
+    padding-bottom: 20px;
     padding-left: 20px;
     text-align: left;
   }
