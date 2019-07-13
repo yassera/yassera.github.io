@@ -22,9 +22,9 @@
   grid-template-rows: auto auto;
   background-color: #fff;
   background-image: url('../images/bg_atoms_1x.png');
-  background-position: 0% 50%;
-  background-size: 135%;
-  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 1422px;
+  background-repeat: repeat-y;
   background-attachment: fixed;
 }
 
@@ -890,7 +890,7 @@
 
 @media (max-width: 991px) {
   .body {
-    background-position: 0% 0%;
+    background-position: 50% 50%;
     background-size: 1422px;
   }
   .headline-text {
@@ -966,6 +966,9 @@
 }
 
 @media (max-width: 767px) {
+  .body {
+    background-size: 1422px;
+  }
   .headline-text {
     width: 530px;
     margin-bottom: 0px;
@@ -1129,6 +1132,7 @@
 @media (max-width: 479px) {
   .body {
     background-position: 50% 50%;
+    background-size: 1422px;
     background-repeat: repeat-y;
   }
   .headline-text {
