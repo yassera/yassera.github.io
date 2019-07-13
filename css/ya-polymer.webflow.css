@@ -364,15 +364,21 @@
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 10px;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 700;
 }
 
 .paragraph-2 {
-  width: 75%;
+  width: auto;
   margin-bottom: 0px;
   padding-right: 20px;
   padding-bottom: 10px;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 400;
 }
@@ -407,12 +413,15 @@
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 10px;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
   font-family: neue-haas-grotesk-display, sans-serif;
   text-align: right;
 }
 
 .paragraph-3 {
-  width: 75%;
+  width: auto;
   margin-bottom: 0px;
   padding-bottom: 10px;
   float: right;
@@ -475,14 +484,20 @@
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 10px;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
   font-family: neue-haas-grotesk-display, sans-serif;
 }
 
 .paragraph-4 {
-  width: 75%;
+  width: auto;
   margin-bottom: 0px;
   padding-right: 10px;
   padding-bottom: 10px;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 400;
 }
@@ -493,12 +508,12 @@
 }
 
 .image-3 {
-  width: 90%;
+  width: 80%;
   height: auto;
 }
 
 .image-4 {
-  width: 90%;
+  width: 85%;
   height: auto;
 }
 
@@ -1352,10 +1367,9 @@
     margin-bottom: 0px;
     padding-bottom: 10px;
     padding-left: 0px;
-    -webkit-align-self: auto;
-    -ms-flex-item-align: auto;
-    -ms-grid-row-align: auto;
-    align-self: auto;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
     line-height: 42px;
     text-align: left;
   }
@@ -1364,10 +1378,9 @@
     margin-bottom: 0px;
     padding-right: 0px;
     padding-bottom: 10px;
-    -webkit-align-self: auto;
-    -ms-flex-item-align: auto;
-    -ms-grid-row-align: auto;
-    align-self: auto;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
     font-weight: 400;
     text-align: left;
   }
