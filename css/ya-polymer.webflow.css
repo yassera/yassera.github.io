@@ -1489,7 +1489,7 @@
   .heading-2 {
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-top: 20px;
+    padding-top: 23px;
     padding-bottom: 10px;
     font-size: 38px;
     line-height: 42px;
@@ -1518,7 +1518,7 @@
   .heading-3 {
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-top: 0px;
+    padding-top: 5px;
     padding-bottom: 10px;
     padding-left: 0px;
     -webkit-align-self: flex-start;
