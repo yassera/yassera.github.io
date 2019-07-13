@@ -342,7 +342,7 @@
   display: flex;
   width: 50%;
   height: auto;
-  padding-left: 40px;
+  padding-left: 50px;
   float: right;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -393,7 +393,7 @@
   display: flex;
   width: 50%;
   height: auto;
-  padding-right: 40px;
+  padding-right: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -465,7 +465,7 @@
   display: flex;
   width: 50%;
   height: auto;
-  padding-left: 40px;
+  padding-left: 20px;
   float: right;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
